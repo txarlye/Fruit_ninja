@@ -9,8 +9,8 @@ Plugins/*/Intermediate/
 Plugins/*/Saved/
 
 # Archivos de Unreal Engine que se regeneran
-*.uasset
-*.umap
+# *.uasset  # Comentado para permitir archivos de contenido
+# *.umap    # Comentado para permitir mapas
 *.uproject
 *.uplugin
 *.upluginmanifest
@@ -98,10 +98,15 @@ Shaders/Compiled/
 Shaders/Debug/
 Shaders/Intermediate/
 
-# Archivos de contenido generado
+# Archivos de contenido generado y subcarpetas específicas de Content
 Content/Generated/
 Content/Temp/
 Content/Cache/
+Content/Developers/
+Content/Collections/
+Content/LevelPrototyping/
+Content/VRSpectator/
+Content/VRTemplate/
 
 # Archivos de plugins temporales
 Plugins/Temp/
